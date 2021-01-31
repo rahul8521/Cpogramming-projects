@@ -97,7 +97,7 @@ void division()
 	int a,b;
 	float res;
 	printf("\n\t\t\tEnter two integers: ");
-	scanf("%f %f", &a, &b);
+	scanf("%d %f", &a, &b);
 	res=a/b;
 	printf("\n\t\t\tResult of division= %.3f", res);
 }
